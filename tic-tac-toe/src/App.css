@@ -1,0 +1,13 @@
+.chess-board {
+  display: grid;
+  grid-template-rows: repeat(3, 80px);
+  grid-template-columns: repeat(3, 80px);
+}
+
+.chess-board_cell {
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
